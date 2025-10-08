@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Zalando Sans SemiExpanded", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 60%;
+    height: 100%;
+    /*background-color: antiquewhite;*/
+    text-align: center;
+    margin: auto;
+}
+
+header h1{
+    font-size: 38px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.section{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 23px;
+}
+
+
+
+.learn-img, .apply-img, .connect-img{
+    width: 50%;
+    height: 100%;
+}
+
+.image img{
+    width: 	100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.section-data {
+    width: 50%;
+    height: 100%;
+    /*background-color: blue; */
+    
+}
+
+#learn-heading ,#apply-heading, #connect-heading{
+    margin-bottom: 22px;
+}
+
+#learn-heading p ,#apply-heading p, #connect-heading p{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #046c6b;
+    letter-spacing: 1.5px;
+    line-height: 4;
+
+}
+
+#learn-heading h2,#apply-heading h2, #connect-heading h2{
+    font-size: 31px;
+    font-weight: 400;
+}
+
+.text{
+    margin-bottom: 23px;
+    line-height: 30px;
+}
+
+.value{
+    margin-bottom: 30px;
+    
+}
+
+.value-prop {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+    line-height: 25px;
+}
+
+.ivy-value-props__value-prop-icon{
+    width: 30px;
+    height:30px;
+}
+
+.buttons{
+    display: flex;
+}
+.course-btn{
+    padding: 13px 20px;
+    background-color: #046c6b;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+}
+.course-btn:hover{
+    background-color: #0A5052;
+}
+
+.membership-btn{
+    padding: 13px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 1px solid #046c6b;
+    margin-left: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #0a5052;
+    cursor: pointer;
+}
+
+.membership-btn:hover{
+    background-color: #4e727b2d;
+}
+
+
+@media (max-width: 768px) {
+    .section {
+        flex-direction: column-reverse;
+        padding: 15px;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 25px;
+        padding: 0 10px;
+        line-height: 1.5;
+    }
+
+    .image{
+        width: 100%;
+        height: 100%;
+    }
+    .image img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .section-data {
+        width: 100%;
+        height: 100%;
+    }
+
+    
+
+    .ivy-value-props__value-prop-icon{
+        width: 50px;
+        height: 50px;
+    }
+    .buttons{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .course-btn{
+        font-size: 15px;
+    }
+    .membership-btn{
+        margin-left: 0px;
+    }
+   
+}
+
+@media (max-width:1024px) {
+    .section{
+        flex-direction: column-reverse;
+    }
+     header {
+        width: 100%;
+    }
+    header h1 {
+        font-size: 31px;
+        padding: 0 10px;
+        line-height: 1.5;
+    }
+
+    .image{
+        width: 100%;
+        height: 100%;
+    }
+    .image img{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .section-data {
+        width: 100%;
+        height: 100%;
+    }
+
+    .apply{
+        flex-direction:column;
+    }
+
+    
+}
